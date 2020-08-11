@@ -67,7 +67,7 @@ $  ngspice comparator.cir
 ## CLOCK DIVIDER BLOCK
 ### BLOCK DIAGRAM
 <p align="center">
-  <img width="800" height="500" src="/Images/block.png">
+  <img width="800" height="500" src="/Images/clkdivider_block.PNG">
 </p>
 
 ### CIRCUIT DIAGRAM
