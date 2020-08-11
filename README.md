@@ -72,7 +72,7 @@ $  ngspice comparator.cir
 
 ### CIRCUIT DIAGRAM
 <p align="center">
-  <img width="800" height="500" src="/Images/clkdivider_circuit.PNG">
+  <img width="800" height="500" src="/Images/clkdivider_circuit.png">
 </p>
 
 
