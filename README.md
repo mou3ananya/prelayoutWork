@@ -3,7 +3,7 @@ This repository contains a structural as well as functional description of a com
 ## COMPARATOR BLOCK
 ### BLOCK DIAGRAM
 <p align="center">
-  <img width="800" height="500" src="/Images/block.png">
+  <img width="800" height="500" src="/Images/comparator_block.PNG">
 </p>
 
 ### CIRCUIT DIAGRAM
