@@ -1,0 +1,18 @@
+*****divider24*****
+
+X1 1d 0 clk clk1 clkdivider
+Vdd_d 1d 0 1.8
+Vclk clk 0 pulse(0 1.8 1n 1n 1n 0.25u 0.5u)
+
+
+.tran 1n 20u
+.inc osu018.lib
+.include clk24.lib
+
+.control
+run
+plot V(clk1) V(clk)
+.endc
+.end
+
+
