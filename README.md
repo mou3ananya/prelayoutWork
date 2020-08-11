@@ -8,7 +8,7 @@ This repository contains a structural as well as functional description of a com
 
 ### CIRCUIT DIAGRAM
 <p align="center">
-  <img width="800" height="500" src="/Images/circuit.png">
+  <img width="800" height="500" src="/Images/comparator_circuit.png">
 </p>
 
 
@@ -72,7 +72,7 @@ $  ngspice comparator.cir
 
 ### CIRCUIT DIAGRAM
 <p align="center">
-  <img width="800" height="500" src="/Images/circuit.png">
+  <img width="800" height="500" src="/Images/clkdivider_circuit.png">
 </p>
 
 
