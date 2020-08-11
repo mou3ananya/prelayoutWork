@@ -1,2 +1,0 @@
-# prelayoutWork
-This repository contains a structural as well as functional description of a comparator and a clock divider with 3.3v analog voltage and 1.8v digital voltage. It also contains the functional outcome of an integrated block consisting of a sample &amp; hold and the comparator along with another integrated block consisting of the clock divider and the sample &amp; hold. This repository will maintain simulation files and other relevant files on the pre-mentioned design blocks worked on in the Online VSD IP Design Research Internship 2020
