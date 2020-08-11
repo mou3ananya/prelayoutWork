@@ -128,43 +128,7 @@ $  ngspice clk_divider.cir
  <img width="800" height="500" src="/Images/clk_divider.PNG">
 </p>
 
-## PRE-LAYOUT SIMULATION FOR COMBINED SAMPLE & HOLD AND COMPARATOR CIRCUIT
 
-To clone the Repository and download the Netlist files for Simulation, enter the following commands in your terminal.
-
-```
-$  sudo apt install -y git
-$  git clone https://github.com/mou3ananya/prelayoutWork
-$  cd prelayoutWork/Combined_sample_comparator
-```
-Run the netlist file using the following command.
-```
-$  ngspice sample_comp.cir
-```
-
-
-<p align="center">
- <img width="800" height="500" src="/Images/combined_sample_comparator.PNG">
-</p>
-
-## PRE-LAYOUT SIMULATION FOR COMBINED CLOCK DIVIDER, SAMPLE & HOLD AND COMPARATOR CIRCUIT
-
-To clone the Repository and download the Netlist files for Simulation, enter the following commands in your terminal.
-
-```
-$  sudo apt install -y git
-$  git clone https://github.com/mou3ananya/prelayoutWork
-$  cd prelayoutWork/sample_comparator_clkdivider
-```
-Run the netlist file using the following command.
-```
-$  ngspice sample_comp_clk.cir
-```
-
-
-<p align="center">
- <img width="800" height="500" src="/Images/sample_comp_clk.PNG">
-</p>
 
 ## Acknowledgments
 - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
