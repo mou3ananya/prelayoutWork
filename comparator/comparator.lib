@@ -1,0 +1,23 @@
+* Comparator
+.subckt comparator N001 N002 0 N006 N005 Vout
+M1 N001 N003 N003 N001 pfet l=180n w=240n m=1
+M2 N001 N003 N004 N001 pfet l=200n w=240n m=1
+M3 N003 N005 N008 0 nfet l=200n w=240n m=1
+M4 N004 N006 N008 0 nfet l=200n w=240n m=1
+M5 N001 N004 N009 N001 pfet l=200n w=240n m=1
+M6 N009 N007 0 0 nfet l=200n w=240n m=1
+M7 N008 N007 0 0 nfet l=200n w=240n m=1
+M8 N002 N009 N010 N002 pfet l=200n w=240n
+M9 N002 N010 Vout N002 pfet l=200n w=240n
+M10 N010 N009 0 0 nfet l=200n w=240n
+M11 Vout N010 0 0 nfet l=200n w=240n
+*C1 Vout 0 1p
+*C2 N009 0 1p
+*M12 N001 N001 N007 0 nfet l=0.2u w=0.24u
+*I1 N001 N007 1u
+R1 N001 N007 2MEG
+M13 N007 N007 0 0 nfet l=0.2u w=2.5u
+.ends comparator
+
+
+

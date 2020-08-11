@@ -1,0 +1,18 @@
+******Comparator*****
+
+x1 Vdd_a Vdd_d 0 v_p v_n Vout comparator
+
+Vdd Vdd_a 0 3.3v
+V1 Vdd_d 0 1.8v
+Vp v_p 0 23mv
+Vn v_n 0 20mv
+
+.tran 20us
+.inc osu018.lib
+.include comparator.lib
+
+.control
+run 
+plot V(Vout) V(v_p) V(v_n)
+.endc 
+.end
