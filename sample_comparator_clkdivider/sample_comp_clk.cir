@@ -1,0 +1,37 @@
+* Final ADC Merging
+
+
+X1 1 0 in clk1 out_sam sample
+X2 1 1d 0 out_sam v_n out_comp comparator
+X3 1d 0 clk clk1 clkdivider
+*****************************************
+.include osu018.lib
+.include sample.lib
+.include comparator.lib
+.include clk24.lib
+******************************************
+V_a 1 0 3.3v
+V_d 1d 0 1.8V
+Vin in 0 SINE(1.65v 1.65v 5k)
+V_clk clk 0 PULSE(0 1.8 1n 1n 1n 0.25u 0.5u)
+
+
+***remove
+
+Vn v_n 0 1V
+
+
+
+
+
+*************************************
+.tran 1ns 480u
+.control
+run
+plot V(in) V(out_sam) V(v_n) V(out_comp)
+.endc
+.end
+
+
+
+
