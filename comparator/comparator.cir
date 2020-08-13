@@ -4,7 +4,7 @@ x1 Vdd_a Vdd_d 0 v_p v_n Vout comparator
 
 Vdd Vdd_a 0 3.3v
 V1 Vdd_d 0 1.8v
-Vp v_p 0 23mv
+Vp v_p 0 50mv
 Vn v_n 0 20mv
 
 .tran 20us
