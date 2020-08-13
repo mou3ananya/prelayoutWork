@@ -37,7 +37,7 @@ Table of contents
 
 
 
-<img align="left" width="60" height="50" src=/Images/ng_logo.png>
+<img align="left" width="60" height="50" src=/Images/ng_logo.PNG>
 
 ## About Ngspice 
 Ngspice is an open source mixed-signal circuit simulator.
