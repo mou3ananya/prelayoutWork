@@ -93,6 +93,9 @@ $  ngspice comparator.cir
 </p>
 
 
+Vp:Non-inverting i/p terminal
+Vn:Inverting i/p terminal
+
 ## Issues | Improvements | Future Work
 
 1. The biasing circuit is required some improvement in architecture since here I'm using 2Meg resister which is more area as well as power comsuming compare to MOS transister.
