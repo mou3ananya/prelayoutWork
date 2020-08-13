@@ -107,10 +107,10 @@ $  ngspice comparator.cir
   <img width="800" height="500" src="/Images/clkdivider_block.PNG">
 </p>
 
-## CIRCUIT DIAGRAM of the Comparator IP
+## CIRCUIT DIAGRAM of the Clock Divider IP
 
 <p align="center">
-  <img width="800" height="500" src="/Images/clkdivider_circuit.png">
+  <img width="800" height="500" src="/Images/clkDivider.PNG">
 </p>
 
 ## Running the Simulation
@@ -156,8 +156,7 @@ $  ngspice clk_divider.cir
 
 ## Issues | Improvements | Future Work
 
-Output pulse is of 33% duty cycle since I've used one 3bit asynchronous up-counter followed by a MOD-3 asynchronous up counter. I'll modify the circuit to get 50% duty cycle
-which is important to meet the 10bit ADC IP spec[here](/Documentation/Specifications.pdf).
+Output pulse of the current clock divider is of 33% duty cycle since I've used one 3bit asynchronous up-counter followed by a MOD-3 asynchronous up counter. I'll modify the circuit to get 50% duty cycle which is important to meet the 10bit ADC IP spec[here](/Documentation/Specifications.pdf).
 
 
 ## Contributors 
