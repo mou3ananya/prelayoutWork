@@ -99,6 +99,8 @@ $  ngspice comparator.cir
 2. The current comparator can detect the difference between Vp(Non-inverting) and Vn(Inverting) i/p terminal voltage upto 20mv which needs an improvement upto 3.2mv to meet 
    the specs of 10bit ADC IP[here](/Documentation/Specifications.pdf).
    
+   
+   
 ## Block Diagram of the Clock Divider IP
 
 <p align="center">
@@ -156,6 +158,7 @@ $  ngspice clk_divider.cir
 
 Output pulse is of 33% duty cycle since I've used one 3bit asynchronous up-counter followed by a MOD-3 asynchronous up counter. I'll modify the circuit to get 50% duty cycle
 which is important to meet the 10bit ADC IP spec[here](/Documentation/Specifications.pdf).
+
 
 ## Contributors 
 
