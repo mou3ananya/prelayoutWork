@@ -110,7 +110,7 @@ $  ngspice comparator.cir
 ## CIRCUIT DIAGRAM of the Clock Divider IP
 
 <p align="center">
-  <img width="800" height="500" src="/Images/clkDivider.PNG">
+  <img width="800" height="500" src="/Images/clkdivider_ckt.PNG">
 </p>
 
 ## Running the Simulation
