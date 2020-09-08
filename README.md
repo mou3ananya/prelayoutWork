@@ -113,7 +113,7 @@ Vn:Inverting i/p terminal
 ## CIRCUIT DIAGRAM of the Clock Divider IP
 
 <p align="center">
-  <img width="800" height="500" src="/Images/clkdivider_ckt.PNG">
+  <img width="800" height="500" src="/Images/cir_clk.PNG">
 </p>
 
 ## Running the Simulation
