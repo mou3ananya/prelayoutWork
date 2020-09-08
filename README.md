@@ -9,16 +9,22 @@ Table of contents
 <!--ts-->
    * [Block Diagram of the Comparator IP](#block-diagram-of-the-comparator-ip)
    * [Circuit Diagram of the Comparator IP](#circuit-diagram-of-the-comparator-ip)
-   * [About Ngspice](#about-ngspice)
    * [Running the Simulation](#running-the-simulation)
    * [Pre-Layout Simulation](#pre-layout-simulation)
+   * [Layout of Comparator](#layout-of-comparator)
+   * [Post-Layout Simulation](#post-layout-simulation)
    * [Issues | Improvements | Future Work](#issues--improvements--future-work)
    * [A Glance at the Clock Divider IP](#a-glance-at-the-clock-divider-ip)
    * [Block Diagram of the Clock Divider IP](#block-diagram-of-the-clock-divider-ip)
    * [Circuit Diagram of the Clock Divider IP](#circuit-diagram-of-the-clock-divider-ip)
    * [Running the Simulation](#running-the-simulation)
    * [Pre-Layout Simulation](#pre-layout-simulation)
+   * [Layout of Comparator](#layout-of-comparator)
+   * [Post-Layout Simulation](#post-layout-simulation)
    * [Issues | Improvements | Future Work](#issues--improvements--future-work)
+   * [Open-Source VLSI Tools](#open-source-vlsi-tools)
+       * [About Ngspice](#about-ngspice)
+       * [About Magic](#magic)
    * [Acknowledgments](#acknowledgments)
    * [Contact Information](#contact-information))
 <!--te-->
@@ -39,17 +45,6 @@ Table of contents
 
 <img align="left" width="60" height="50" src=/Images/ng_logo.PNG>
 
-## About Ngspice 
-Ngspice is an open source mixed-signal circuit simulator.
-
-### Installing Ngspice
-
-#### For Ubuntu
-
-Open your terminal and type the following to install Ngspice
-```
-$  sudo apt-get install -y ngspice
-```
 
 ## Running the Simulation
 
@@ -188,6 +183,39 @@ $  ngspice CLK_Divider.cir
 ## Issues | Improvements | Future Work
 
 Output pulse of the current clock divider is of 33% duty cycle since I've used one 3bit asynchronous up-counter followed by a MOD-3 asynchronous up counter. I'll modify the circuit to get 50% duty cycle which is important to meet the 10bit ADC IP spec[here](/Documentation/Specifications.pdf).
+
+## Open-Source VLSI Tools
+
+
+<img align="left" width="60" height="50" src=/Images/ng_logo.PNG>
+
+## About Ngspice 
+Ngspice is an open source mixed-signal circuit simulator.
+
+### Installing Ngspice
+
+#### For Ubuntu
+
+Open your terminal and type the following to install Ngspice
+```
+$  sudo apt-get install -y ngspice
+```
+
+<img align="left" width="70" height="50" src=/Images/magic.PNG>
+
+## Magic
+ 
+ Magic is a VLSI layout tool. 
+
+Type the following to install Magic in Ubuntu
+```
+$  wget http://opencircuitdesign.com/magic/archive/magic-8.3.54.tgz
+$  tar xvfz magic-8.3.54.tgz
+$  cd magic-8.3.54
+$  ./configure
+$  sudo make
+$  sudo make install
+```
 
 
 ## Contributors 
