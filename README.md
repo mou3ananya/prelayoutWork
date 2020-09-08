@@ -85,7 +85,7 @@ $  cd prelayoutWork/comparator
 Run the netlist file using the following command.
 
 ```
-$  ngspice comparator.cir
+$  ngspice Comparator.cir
 ```
 
 <p align="center">
