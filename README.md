@@ -153,7 +153,7 @@ $  ngspice CLK_Divider.cir
 
 
 <p align="center">
- <img width="800" height="500" src="/Images/clk_divider.PNG">
+ <img width="800" height="500" src="/Images/pre_sim_div.PNG">
 </p>
 
 
