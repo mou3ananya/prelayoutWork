@@ -89,7 +89,7 @@ $  ngspice Comparator.cir
 ```
 
 <p align="center">
- <img width="800" height="500" src="/Images/Comparator.PNG">
+ <img width="800" height="500" src="/Images/pre_sim_comp.PNG">
 </p>
 
 
