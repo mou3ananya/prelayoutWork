@@ -32,7 +32,7 @@ Table of contents
 ## CIRCUIT DIAGRAM of the Comparator IP
 
 <p align="center">
-  <img width="800" height="500" src="/Images/comparator_ckt.PNG">
+  <img width="800" height="500" src="/Images/cir_comp.PNG">
 </p>
 
 
