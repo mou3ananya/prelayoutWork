@@ -107,7 +107,7 @@ Vn:Inverting i/p terminal
 ## Post Layout Simulation
 
  <p align="center">
-  <img width="1200" height="600" src="/Images/post_sim_div.PNG">
+  <img width="1200" height="600" src="/Images/post_sim_comp.PNG">
 </p>
 
 
