@@ -164,6 +164,12 @@ $  ngspice CLK_Divider.cir
   <img width="700" height="500" src="/Images/clk_mag.PNG">
 </p>
 
+## Post Layout Simulation
+
+ <p align="center">
+  <img width="1200" height="600" src="/Images/post_sim_div.PNG">
+</p>
+
 ## Issues | Improvements | Future Work
 
 Output pulse of the current clock divider is of 33% duty cycle since I've used one 3bit asynchronous up-counter followed by a MOD-3 asynchronous up counter. I'll modify the circuit to get 50% duty cycle which is important to meet the 10bit ADC IP spec[here](/Documentation/Specifications.pdf).
