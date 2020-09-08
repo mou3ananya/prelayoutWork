@@ -42,10 +42,6 @@ Table of contents
 </p>
 
 
-
-<img align="left" width="60" height="50" src=/Images/ng_logo.PNG>
-
-
 ## Running the Simulation
 
 
@@ -184,12 +180,15 @@ $  ngspice CLK_Divider.cir
 
 Output pulse of the current clock divider is of 33% duty cycle since I've used one 3bit asynchronous up-counter followed by a MOD-3 asynchronous up counter. I'll modify the circuit to get 50% duty cycle which is important to meet the 10bit ADC IP spec[here](/Documentation/Specifications.pdf).
 
+
+
 ## Open-Source VLSI Tools
 
 
 <img align="left" width="60" height="50" src=/Images/ng_logo.PNG>
 
 ## About Ngspice 
+
 Ngspice is an open source mixed-signal circuit simulator.
 
 ### Installing Ngspice
