@@ -148,7 +148,7 @@ $  cd prelayoutWork/clkdivider
 ```
 Run the netlist file using the following command.
 ```
-$  ngspice clk_divider.cir
+$  ngspice CLK_Divider.cir
 ```
 
 
