@@ -156,6 +156,13 @@ $  ngspice CLK_Divider.cir
  <img width="800" height="500" src="/Images/pre_sim_div.PNG">
 </p>
 
+## Layout
+
+### Layout of Clock Divider
+
+ <p align="center">
+  <img width="700" height="500" src="/Images/clk_mag.PNG">
+</p>
 
 ## Issues | Improvements | Future Work
 
