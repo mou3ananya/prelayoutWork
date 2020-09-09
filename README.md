@@ -26,7 +26,7 @@ Table of contents
        * [About Ngspice](#about-ngspice)
        * [About Magic](#magic)
    * [Acknowledgments](#acknowledgments)
-   * [Contact Information](#contact-information))
+   * [Contact Information](#contact-information)
 <!--te-->
 
 ## Block Diagram of the Comparator IP
